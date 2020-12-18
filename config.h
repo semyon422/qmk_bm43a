@@ -72,5 +72,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //     #define RGBLIGHT_EFFECT_ALTERNATING
 #endif
 
-#define QMK_KEYS_PER_SCAN 86
-// #define DEBUG_MATRIX_SCAN_RATE
+#define QMK_KEYS_PER_SCAN 43
+#define USB_POLLING_INTERVAL_MS 1
+#define FORCE_NKRO
+#define DEFER_KEYBOARD_REPORT_ENABLE
