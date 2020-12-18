@@ -10,7 +10,8 @@ RGBLIGHT_ENABLE = yes        # (default: no) Enable keyboard RGB underglow
 UNICODE_ENABLE = yes         # (default: no) Unicode
 
 # Debouncing per key
-# On any state change, response is immediate, followed by DEBOUNCE milliseconds of no further input for that key
+# On any state change, response is immediate,
+# followed by DEBOUNCE milliseconds of no further input for that key
 DEBOUNCE_TYPE = sym_eager_pk
 DEBOUNCE = 5
 ```
